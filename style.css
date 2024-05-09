@@ -5,62 +5,56 @@ body {
 
 a {
 	text-decoration: none;
-	color: floralwhite;
+	color: darkslategray;
 }
 
 a:hover {
-	color: lightcyan;
+	color: floralwhite;
 }
 
 p {
-	color: floralwhite;
+	color: darkslategray;
 }
 
 
 h1 {
-	color: ghostwhite;
+	color: darkslategray;
 }
 
 ul {
-	color: floralwhite;
+	color: darkslategray;
 }
 
 head {
-	color: seagreen;
+	color: darkslategray;
 }
 div {
-	background-color: powderblue;
 	background-image: "Pretty Book!.jpg";
-}
-
-<div class="topnav">
-  <a href="Index.html">Home</a>
-  <a href="Series.html" class="active">Series</a>
-  <a href="Standalones.html">Standalones</a>
-  <a href="Comingoutsoon.html">Coming out soon!</a>
-  <a href="Donotread.html">Avoid these books!</a>
-</div>
-
-
-tapnav {
-	background-color:seagreen;
-	overflow: hidden;
-}
-
-tapnav a {
 	float: center;
-	color: lightcyan;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration-style: none;
-	font-size: 18px;
 }
 
-.tapnav a:hover {
-	background-color: black;
-	color: black;
+
+
+.topnav {
+   background-color: lightskyblue;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: aliceblue;
+   color: lightskyblue;
 }
 
 .topnav a.active {
-		color: gray;
+   background-color: deepskyblue;
+   color: black;
 }
